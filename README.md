@@ -22,4 +22,5 @@ cd ~/ZomboidBackup
 ./backupProjectZomboid.sh
 ```
 
-![You should have a folder with the backup-date/time as name and the .tar and .tar.xz inside](https://github.com/soberga/projectZomboidBackup/blob/main/images/backupFiles.png "Backup Files") 
+You should have a folder with the backup-date/time as name and the .tar and .tar.xz inside:
+![borked image link!](https://github.com/soberga/projectZomboidBackup/blob/main/images/backupFiles.png "Backup Files") 
