@@ -21,7 +21,7 @@ if [ ! -d "$backupDirectory" ]; then
 fi
 
 printf "Tarballing ${GREEN}$zombroSaveDirectory${NC} into ${GREEN}$tarball${NC}\n"
-tar -C $zombroSaveDirectory -cvf $tarball ../$zombroSavedirName
+tar -C $zombroSaveDirectory -cvf $tarball --exclude="backups" ../$zombroSavedirName
 
 printf "Compress ${GREEN}$tarball${NC} into ${GREEN}$compressedFile${NC} \n"
 xz -k -c -v $tarball > $compressedFile
